@@ -11,6 +11,10 @@
   color: #FFF;
   font-weight:600;
   font-family: "Inter", sans-serif;
+  transition: all ease-in-out .4s;
+}
+.btn:hover{
+  transform: scale(1.1);
 }
 .btn2{
   background: linear-gradient(40deg, #F7E93F,  #FB09B4,#9100F8);
@@ -18,6 +22,9 @@
   color: #FFF;
   font-weight:600;
   font-family: "Inter", sans-serif;
-  
+  transition: all ease-in .5s;
+}
+.btn2:hover{
+  transform: scale(0.9);
 }
 }
